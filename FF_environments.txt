@@ -1,0 +1,4 @@
+conda create -n ff_environment python=3.8
+conda activate ff_environment
+pip install ipykernel
+python -m ipykernel install --user --name=ff_environment
